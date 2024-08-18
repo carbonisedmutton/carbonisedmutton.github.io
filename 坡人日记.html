@@ -1,0 +1,16 @@
+---
+layout: page
+title: 坡人日记
+permalink: /坡人日记/
+---
+
+{% for tag in site.tags %}
+  {% if tag[0] == "坡人日记" %} 
+  {% for post in tag[1] %}
+      <h3><a href="{{ post.url }}">{{post.title}}</a></h3>
+      <p>{{ post.excerpt }}</p>
+  {% endfor %}  
+  {% endif %}
+{% endfor %}
+
+
