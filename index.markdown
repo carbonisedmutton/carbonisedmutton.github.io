@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Base
+title: Core
 ---
 
 It is well-known among astronomers that the speed of light determines the latency of perception. Keep this in mind, my friend, for your present is merely my past.
